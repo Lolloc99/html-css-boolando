@@ -1,3 +1,46 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 2% auto;
+    width: 80%;
+    height: 1000px;
+    border: 1px solid rgb(111, 22, 146);
+}
+
+/* ROW */
+.row {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    width: calc((100%/3) - 3px);
+    /* vertical-align: top; */
+}
+
+.product img {
+    width: 100%;
+}
+
+/* INFO */
+.price {
+    font-weight: bold;
+    color: red;
+    font-size: small;
+}
+
+.old-price {
+    font-size: small;
+    text-decoration: line-through;
 }
