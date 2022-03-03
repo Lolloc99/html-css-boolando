@@ -26,14 +26,14 @@ html {
     display: inline-block;
     position: relative;
     width: calc((100%/3) - 3px);
-    /* vertical-align: top; */
+    border: 1px dashed green;
 }
 
 .product img {
     width: 100%;
 }
 
-/* INFO */
+/* INFO SOTTO IMMAGINE */
 .price {
     font-weight: bold;
     color: red;
@@ -43,4 +43,26 @@ html {
 .old-price {
     font-size: small;
     text-decoration: line-through;
+}
+
+/* INFO SULL'IMMAGINE */
+.special {
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+}
+
+.details {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: white;
+    padding: 4px 5px;
+}
+
+.sost {
+    background-color: #00875a;
+}
+
+.sale {
+    background-color: #eb0037;
 }
