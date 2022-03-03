@@ -17,12 +17,13 @@ html {
 /* ROW */
 .row {
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .product {
     display: inline-block;
     position: relative;
-    width: calc((100%/3) - 15px);
+    width: calc((100%/3) - 16px);
     margin: 6px;
 }
 
@@ -71,4 +72,24 @@ html {
     background-color: white;
     padding: 5px 15px;
     font-size: xx-large;
+}
+
+
+/* HOVER EFFECT */
+.img-2 {
+    display: none;
+}
+
+.product:hover .img-1 {
+    display: none;
+}
+
+.product:hover .img-2 {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
 }
