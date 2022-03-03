@@ -12,21 +12,18 @@ html {
 .container {
     margin: 2% auto;
     width: 80%;
-    height: 1000px;
-    border: 1px solid rgb(111, 22, 146);
 }
 
 /* ROW */
 .row {
     width: 100%;
-    border: 1px solid red;
 }
 
 .product {
     display: inline-block;
     position: relative;
-    width: calc((100%/3) - 3px);
-    border: 1px dashed green;
+    width: calc((100%/3) - 15px);
+    margin: 6px;
 }
 
 .product img {
@@ -45,7 +42,7 @@ html {
     text-decoration: line-through;
 }
 
-/* INFO SULL'IMMAGINE */
+/* INFO SU IMMAGINE */
 .special {
     position: absolute;
     bottom: 90px;
@@ -65,4 +62,13 @@ html {
 
 .sale {
     background-color: #eb0037;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 5px 15px;
+    font-size: xx-large;
 }
