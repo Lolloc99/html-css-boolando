@@ -22,7 +22,7 @@ html {
 
 .product {
     display: inline-block;
-    position: relative;
+    position: relative;  /* Prossima volta meglio mettere la position al product image, cosicche sicuro stia sopra l'immagine*/
     width: calc((100%/3) - 16px);
     margin: 6px;
 }
